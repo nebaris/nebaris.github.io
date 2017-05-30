@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  
+	<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+			{% include header.html %}
+            
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						{{ content }}
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+            </div>
+        </div>
+
+        <hr />
+        
+		{% include footer.html %}
+		
+    </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
