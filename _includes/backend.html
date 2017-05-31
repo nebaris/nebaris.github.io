@@ -1,9 +1,5 @@
----
-layout: page
----
-
 {% assign rawtags = "" %}
-{% for post in site.categories.category_name  %}
+{% for post in site.categories.Backend  %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
@@ -21,15 +17,17 @@ layout: page
 	{% endif %}
 {% endfor %}
 
-<h3>Todas las tags</h3>
+<h3>Todos los cursos</h3>
 {% for tag in tags %}
 	<a href="#{{ tag | slugify }}"> {{ tag }} </a> / 
 {% endfor %}
 
+<hr>
+
 {% for tag in tags %}
 	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
 	<ul>
-	 {% for post in site.categories.category_name reversed %}
+	 {% for post in site.categories.Backend reversed %}
 		 {% if post.tags contains tag %}
       <li>
         <p>

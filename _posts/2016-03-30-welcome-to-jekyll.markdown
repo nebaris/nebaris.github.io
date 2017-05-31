@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to Gravity!"
 date:   2016-03-30 19:45:31 +0530
-category: Arte
-tags: [poema, pintura, alta mar]
+category: Backend
+tags: [C# 7.0 y .NET Core]
 img: c.png
 ---
 Gravity is an unopinionated theme for Jekyll, the awesome static site generator.

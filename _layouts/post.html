@@ -29,11 +29,19 @@ layout: default
 	</div>
   {% endif %}
   {% if page.next.url %}
-	<div class="col-md-6 text-right">
-		Siguiente: <br><a href="{{page.next.url}}">
-			{{page.next.title}} &raquo;
-		</a>
-	</div>
+    {% if page.previous.url %}
+      <div class="col-md-6 text-right">
+        Siguiente: <br><a href="{{page.next.url}}">
+          {{page.next.title}} &raquo;
+        </a>
+      </div>
+    {% else %}
+      <div class="col-md-12 text-right">
+        Siguiente: <br><a href="{{page.next.url}}">
+          {{page.next.title}} &raquo;
+        </a>
+      </div>
+    {% endif %}
   {% endif %}
   </div>
 
