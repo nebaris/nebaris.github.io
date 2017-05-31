@@ -1,0 +1,391 @@
+﻿body {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #16191b;
+    color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.navbar {
+    -ms-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 2rem;
+}
+
+.navbar-inverse {
+    background-color: #16191b;
+    border-color: #16191b;
+}
+
+ul.navbar-right {
+    margin-top: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > span {
+    padding-top: 10px;
+    position: relative;
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+    color: #e2e2e2;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: #f60;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    text-transform: none;
+    font-size: 45px;
+    -webkit-font-variant: small-caps;
+    -moz-font-variant: small-caps;
+    -ms-font-variant: small-caps;
+    -o-font-variant: small-caps;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-weight: 900;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #f60;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border: 0;
+}
+
+.at-hero-area {
+    min-height: 500px;
+    background-size: cover;
+    padding: 70px 0;
+    background-image: url(../Images/background.jpg);
+}
+
+.at-hero-cta-area {
+    background: #fff;
+    padding: 50px;
+}
+
+.at-hero-cta-area h2 {
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+
+.btn {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-default {
+    background-color: #f60;
+    padding-left: 29px;
+    padding-right: 29px;
+    color: #222222;
+    border: 0;
+}
+.btn-default:hover {
+    background-color: #222;
+    color: #f60;
+}
+.btn, .kol-email-field-submit, input[type=submit] {
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 38px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
+.full-width {
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h2 a {
+    background: none;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+h2.titulo {
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: 'Source Serif Pro', serif;
+}
+
+p a {
+    font-family: 'Source Serif Pro', serif;
+}
+
+h2,
+a {
+    color: #f60;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.preview a {
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+div.preview a:hover {
+    background-color: #f60;
+}
+
+.no-bold {
+    font-weight: 100;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-left: 0;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.padding-left-5 {
+	padding-left: 5px;
+}
+
+#texto p,
+#texto ul,
+#texto ol,
+#texto a,
+#texto li,
+#texto q,
+#texto blockquote {
+    font-size: 20px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #f60;
+    border: 0;
+    color: #16191b;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    border: 0;
+    background-color: #16191b;
+    border-color: #16191b;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: #f60;
+    background-color: #16191b;
+    border-color: #16191b;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #ffffff;
+    background-color: #16191b;
+    border-color: #16191b;
+}
+
+/* syntax highlight */
+code {
+    padding: 2px 4px;
+    font-size: 70%;
+    color: #ff6600;
+    background-color: #232321;
+    border-radius: 4px;
+}
+
+pre {
+    background-color: #10100f;
+}
+
+.highlight .hll { background-color: #49483e }
+.highlight  { background: #272822; color: #f8f8f2 }
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .ch { color: #75715e } /* Comment.Hashbang */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .cpf { color: #75715e } /* Comment.PreprocFile */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .gd { color: #f92672 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gi { color: #a6e22e } /* Generic.Inserted */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #75715e } /* Generic.Subheading */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mb { color: #ae81ff } /* Literal.Number.Bin */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sa { color: #e6db74 } /* Literal.String.Affix */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .dl { color: #e6db74 } /* Literal.String.Delimiter */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #a6e22e } /* Name.Function.Magic */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .vm { color: #f8f8f2 } /* Name.Variable.Magic */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+/* syntax highlight */
+@media (min-width: 768px) and (max-width: 991px){
+    body {
+        padding-top: 130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 35px;
+        padding: 11px 0; 
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: 1px solid rgb(204, 204, 204);
+    }
+
+    button.navbar-toggle {
+        background-color: white;
+        border: 0;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #333;
+    }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #ccc;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: black;
+    }
+}
+
+@media (max-width: 307px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 30px; 
+        padding: 10px 0; 
+    }
+}
