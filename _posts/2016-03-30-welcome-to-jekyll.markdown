@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Gravity!"
 date:   2016-03-30 19:45:31 +0530
-category: Backend
+category: NET
 tags: [C# 7.0 y .NET Core]
 img: c.png
 ---
