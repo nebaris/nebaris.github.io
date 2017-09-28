@@ -5,54 +5,7 @@ layout: default
 <div class="home">
 
 
-  {% for post in paginator.posts%}
-  
-	<h2>
-		<a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-	</h2>
-	<div class="col-md-12">
-		<p>
-			{{ post.content | strip_html | truncate:200}} <a href="{{site.url}}{{site.baseurl}}{{post.url}}">seguir leyendo</a>
-		</p>
-		<p class="font-size-15">
-			<span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{ post.date | date: "%-d/%-m/%Y" }}
-			<span class="glyphicon glyphicon-tags padding-left-30" aria-hidden="true"></span> 
-			{% for tag in post.tags %}
-				<a class="padding-left-5" href="{{ post.categories | join: ' ' }}/#{{tag | slugify: 'pretty'}}">{{tag}}</a>
-			{% endfor %}
-		</p>
-	</div>
-
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-  
-	<div id="divPaginacion" class="col-md-12 text-center">
-		<ul class="pagination pagination-lg">
-  
-			{% if paginator.previous_page %}
-				<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">«</a></li>				
-			{% else %}
-				<li class="disabled"><a>&laquo;</a></li>
-			{% endif %}
-  
-			{% for page in (1..paginator.total_pages) %}
-			  {% if page == paginator.page %}
-				<li class="active"><a>{{ page }} <span class="sr-only">(current)</span></a></li>
-			  {% elsif page == 1 %}
-				<li><a href="/">{{ page }}</a></li>
-			  {% else %}
-				<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-			  {% endif %}
-			{% endfor %}
-  
-			{% if paginator.next_page %}
-				<li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">»</a></li>
-		    {% else %}
-				<li class="disabled"><a>&raquo;</a></li>
-			{% endif %}
-		</ul>
-	</div>
-  {% endif %}
+  <a href="">C# 7.0 y .NET Core</a>
 
 
 </div>
