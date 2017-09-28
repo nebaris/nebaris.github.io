@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Gravity!"
 date:   2016-03-30 19:45:31 +0530
-category: C7yNETCore
+category: CSharp7yNETCore
 tags: [C# 7.0 y .NET Core]
 img: c.png
 ---
@@ -17,22 +17,22 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 {% highlight javascript %}
-function helloWorld(param1, param2) {
-  var something = 0;
+    function helloWorld(param1, param2) {
+      var something = 0;
 
-  // Do something
-  if (2.0 % 2 == something) {
-    console.log('Hello, world!');
-  } else {
-    return null;
-  }
+      // Do something
+      if (2.0 % 2 == something) {
+        console.log('Hello, world!');
+      } else {
+        return null;
+      }
 
-  // @TODO comment
-}
+      // @TODO comment
+    }
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-docs]: http://jekyllrb.com/docs/home  
+[jekyll-gh]:   https://github.com/jekyll/jekyll  
 [jekyll-talk]: https://talk.jekyllrb.com/

@@ -1,6 +1,6 @@
 <h2>C# 7.0 y .NET Core</h2>
 {% assign rawtags = "" %}
-{% for post in site.categories.C7yNETCore  %}
+{% for post in site.categories.CSharp7yNETCore  %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
@@ -18,18 +18,9 @@
 	{% endif %}
 {% endfor %}
 
-<h3>Todos los cursos</h3>
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a> / 
-{% endfor %}
-
-<hr>
-
-<h3>Todos los artículos ordenados por curso</h3>
-{% for tag in tags %}
-	<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
 	<ul>
-	 {% for post in site.categories.C7yNETCore reversed %}
+	 {% for post in site.categories.CSharp7yNETCore reversed %}
 		 {% if post.tags contains tag %}
       <li>
         <p>
