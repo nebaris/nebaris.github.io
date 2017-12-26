@@ -1,4 +1,4 @@
-<h2>C# 7.0 y .NET Core</h2>
+<h2>C# </h2>
 {% assign rawtags = "" %}
 {% for post in site.categories.csharp  %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -19,6 +19,7 @@
 {% endfor %}
 
 {% for tag in tags %}
+<h3>{{ tag }}</h3>
 	<ul>
 	 {% for post in site.categories.csharp reversed %}
 		 {% if post.tags contains tag %}
