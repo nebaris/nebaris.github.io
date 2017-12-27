@@ -110,24 +110,33 @@ ul.navbar-right {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 .btn-default {
-    background-color: #f60;
+    background-color: #16191b;
     padding-left: 29px;
     padding-right: 29px;
-    color: #222222;
+    color: #f60;
     border: 0;
 }
+
 .btn-default:hover {
-    background-color: #222;
+    background-color: #16191b;
     color: #f60;
 }
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #16191b;
+    background-color: #f60;
+    border-color: #f60;
+}
+
 .btn, .kol-email-field-submit, input[type=submit] {
     -ms-border-radius: 3px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     text-transform: uppercase;
     line-height: 38px;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     font-weight: 600;
 }
@@ -344,10 +353,67 @@ pre {
 
 /* syntax highlight */
 
+/* navbar submenú */
 
+.dropdown-menu {
+    background-color: #16191b;
+    border: 1px white solid;
+}
 
+.dropdown-submenu {
+    position: relative;
+}
 
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
 
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    padding-left: 30px;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu>li>a {
+    color: white;
+}
+
+/* navbar submenú */
 
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -385,8 +451,8 @@ pre {
         background-color: #ccc;
     }
 
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: black;
+    .btn-default {
+        padding-left: 15px;
     }
 }
 

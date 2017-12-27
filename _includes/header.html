@@ -7,16 +7,32 @@
 	<a class="navbar-brand" href="{{site.url}}{{site.baseurl}}">{{site.title}}</a>
 </div>
 <div class="navbar-collapse collapse">
-	<ul class="nav navbar-nav navbar-right">	
-		{% for sitePage in site.pages %}
-		{% if sitePage.title %}		
-		<li>
-			<a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+	<ul class="nav navbar-nav navbar-right">		
+		<li role="presentation">
+			<a class="page-link" href="/acerca-de">Acerca de...</a>
 		</li>
-		<li class="hidden-xs">
+		<li  role="presentation" class="hidden-xs">
 			<span>//</span>
 		</li>
-		{% endif %}
-		{% endfor %}
+		<li role="presentation">
+            <div class="bs-example">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle btn-dropdown" type="button" id="btn-menu-1"
+                            data-toggle="dropdown" aria-expanded="true">
+						Tecnologías
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="btn-menu-1">
+                        <li class="dropdown-submenu">
+							<a tabindex="-1" href="#">.NET</a>
+							<ul class="dropdown-menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="/.net">.NET</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="/csharp">C#</a></li>
+							</ul>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
 	</ul>
 </div>
