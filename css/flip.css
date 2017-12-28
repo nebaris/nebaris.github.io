@@ -105,6 +105,8 @@
 
   .front .inner {
     top: 80%;
+    background: #16191b;
+    opacity: 0.8;
   }
   
   .front .inner p{
