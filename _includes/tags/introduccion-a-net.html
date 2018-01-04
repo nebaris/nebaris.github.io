@@ -23,7 +23,7 @@
 {% for tag in tags %}
     {% if tag == "Introduccion a .NET" %}
         <ul>
-        {% for post in site.posts %}
+        {% for post in site.posts reversed %}
             {% if post.tags contains tag %}
             <li>
             <h3>
