@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Google Analytics
+google_analytics: UA—40723500-1
+
 # Site settings
 title: Nebaris
 email: hola@kaplangabriel.com
