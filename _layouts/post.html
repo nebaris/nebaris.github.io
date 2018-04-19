@@ -13,13 +13,6 @@ layout: default
 
      </div>
      {% endif %}
-
-     <span>[
-      {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/{{ tag_name }}">{{ tag_name }}</a>
-      {% endfor %}
-    ]</span>
    </center>
   </header>
 
