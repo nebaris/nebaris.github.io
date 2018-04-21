@@ -61,3 +61,5 @@ Para utilizar el .NET Standard hay que instalar una plataforma que implemente di
 El siguiente diagrama indica cómo funcionan las diferentes versiones.  
 
 ![¿Qué es .NET Core?](/asset/img/que-es-net-core/01.png "¿Qué es .NET Core?")
+
+[< Volver a la serie](/que-es-net-core/)
