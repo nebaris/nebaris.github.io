@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Entendiendo .NET"
-date:   2018-04-20 00:00:00 +03
+date:   2018-04-20 00:00:00 -03
 category: net-basico
 tags: ["¿Qué es .NET Core?"]
 ---

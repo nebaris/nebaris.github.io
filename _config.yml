@@ -12,6 +12,7 @@ description: Página dedica a ayudar a programadores, cursos de lenguajes de pro
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nebaris.net" # the base hostname & protocol for your site
 paginate: 5
+future: false
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
