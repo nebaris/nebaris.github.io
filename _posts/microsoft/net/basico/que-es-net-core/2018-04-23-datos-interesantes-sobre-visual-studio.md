@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Datos interesantes sobre Visual Studio"
-date:   2018-04-23 00:00:00 -03
+date:   2018-04-23 00:00:00 -03 
 category: net-basico
 tags: ["¿Qué es .NET Core?"]
 ---
